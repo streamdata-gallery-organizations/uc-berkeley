@@ -1,13 +1,11 @@
----
 swagger: "2.0"
 x-collection-name: UC Berkeley
 x-complete: 1
 info:
-  title: UC Berkeley Academic Terms API
-  description: this-api-uses-the-current-date-to-calculate-the-current-and-coming-years-academic-terms--for-the-current-term-resource-it-returns-the-term-code-and-term-year--for-the-next-terms-resource-it-returns-a-set-of-terms-that-each-include-a-term-title-the-combined-year-and-code-and-the-code-and-year-separately-
+  title: UC Berkeley
   version: 1.0.0
 host: apis.berkeley.edu
-basePath: /sisconnect
+basePath: /
 schemes:
 - http
 produces:
@@ -99,4 +97,3 @@ paths:
       - Current
       - Academic
       - Term
----
